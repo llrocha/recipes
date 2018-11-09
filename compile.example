@@ -1,1 +1,1 @@
-c++ -I /home/nunix/boost/boost_1_68_0 debug_settings.cpp -o debug_settings
+c++ -I /home/nunix/boost/boost_1_68_0/ -I /home/nunix/boost/boost_1_68_0/libs/asio/test/latency/  tcp_client.cpp ./boost_1_68_0/stage/lib/libboost_system.a  ./boost_1_68_0/stage/lib/libboost_thread.a -lpthread  -o tcp_client
