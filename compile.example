@@ -1,0 +1,1 @@
+c++ -I /home/nunix/boost/boost_1_68_0 debug_settings.cpp -o debug_settings
